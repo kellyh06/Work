@@ -1,0 +1,36 @@
+> <
+<=
+>=
+&& and, kui vasak ja parem pool on true,
+tagastab true, kui üks on false on tulemus false
+||
+!
+
+Control flow ja comditional:
+if, while, for
+
+Functions:
+prompt - veebilehitsejas küsib kasutajalt string
+sisendi
+
+Data types:
+boolean - true / false   1 / 0
+number
+string (sõne) - tekst
+
+apple = 0
+pear = 0
+
+running = true
+while (running) {
+    puuvili = prompt("siseste mõni puuvili:")
+    if (puuvili == "apple") {
+        apple++;
+    }
+    else if (puuvili == "pear")
+        pear++;
+    else {
+        console.log("tundmatu puuvili", apple, pear)
+        running = false;
+    }
+}
