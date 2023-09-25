@@ -32,6 +32,7 @@ array (list, massiiv) - hulk
 undefined, null- tühi muutuja
 
 
+KOOD
 
 apple = 0
 pear = 0
@@ -48,4 +49,21 @@ while (running) {
         console.log("tundmatu puuvili", apple, pear)
         running = false;
     }
+}
+
+
+UUS KOOD
+
+puuvili = prompt ("sisesta mõni puuvili:")
+let puuviljalist = []
+for (let i = 0; i < 10; i++) {
+  let sisend=prompt()
+  puuviljalist.push(sisend)
+}
+let i = 0
+while (i < 10)
+  
+  if(puuviljalist[i]!="") {
+  console.log(puuviljalist[i])
+  i++;
 }
