@@ -4,26 +4,41 @@
 && and, kui vasak ja parem pool on true,
 tagastab true, kui üks on false on tulemus false
 ||
+;  lõpeta/käivita käsklus
+//
+===
 !
+%  jäägiga jagamine
+=  assigment
+
 
 Control flow ja comditional:
-if, while, for
+if, else, while, for
+switch
+do while
+
 
 Functions:
 prompt - veebilehitsejas küsib kasutajalt string
 sisendi
+console.log()
+
 
 Data types:
 boolean - true / false   1 / 0
-number
+number /float, double, integer)
 string (sõne) - tekst
+array (list, massiiv) - hulk
+undefined, null- tühi muutuja
+
+
 
 apple = 0
 pear = 0
 
 running = true
 while (running) {
-    puuvili = prompt("siseste mõni puuvili:")
+    puuvili = prompt("sisesta mõni puuvili:")
     if (puuvili == "apple") {
         apple++;
     }
