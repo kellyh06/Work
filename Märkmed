@@ -28,9 +28,12 @@ Data types:
 boolean - true / false   1 / 0
 number /float, double, integer)
 string (sõne) - tekst
-array (list, massiiv) - hulk
+array (list, massiiv) - hulk;  array = [7, 5, 2, 4] - [] vahest on uus array, vaheat on array sees lugemine
 undefined, null- tühi muutuja
-
+object (Dictionary, Map, HashMap, Assocative array); object = { nimi: "Timo", amet: "Õpetaja", staaš: 5} - vahest on koodi plokk
+Property = key-value pairs 
+if () {} <- see ei ole object
+function test() {return 2} <- see ei ole object
 
 KOOD
 
